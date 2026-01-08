@@ -9,7 +9,7 @@ CORS(app)
 
 # ---------------- DATABASE CONFIG ----------------
 db_config = {
-    "host": "google-store-vpc1.cw9w48kuu6go.us-east-1.rds.amazonaws.com", 
+    "host": "google-store-vpc1.cw9w48kuu6go.us-east-1.rds.amazonaws.com",
     "user": "admin",
     "password": "Sujit!0911",
     "database": "google-store-vpc1"
@@ -116,6 +116,7 @@ def get_users():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
     
+
 
 
 
