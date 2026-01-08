@@ -16,6 +16,6 @@ spec:           # This is the Deployment spec
     spec:       # This is the Pod spec (indented under template)
       containers:
       - name: googlegrocery
-        image: 997334016513.dkr.ecr.us-east-1.amazonaws.com/shopping-site-googlegrocery:6cb8dba691c449e393ac44ed86ed5e4139b958b5
+        image: 997334016513.dkr.ecr.us-east-1.amazonaws.com/shopping-site-googlegrocery:d875de8df56afbfda83117361f886e1a2fe07f21
         ports:
         - containerPort: 80
